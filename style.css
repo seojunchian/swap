@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	width: 600px;
+	padding: 20px;
+	margin: 100px auto;
+	display: flex;
+	flex-direction: column;
+}
+.container #container-log_in_btn {
+	height: 50px;
+	padding: 10px;
+	margin: 0px auto;
+}
+.container .container-token1,
+.container .container-token2 {
+	display: block;
+	padding: 20px;
+	margin: 0px auto;
+}
+.container #container-token1-text,
+.container #container-token2-text,
+.container #container-token1-select,
+.container #container-token2-select {
+	padding: 20px;
+	margin: 0px 10px;
+}
+.container #container-swap_btn {
+	height: 50px;
+	width: 200px;
+	margin: 20px auto 0px;
+}
+#modal-body {
+	overflow-y: scroll;
+	max-height: 500px;
+}
